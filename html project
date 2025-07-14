@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SimpleShop - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>SimpleShop</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to SimpleShop!</h2>
+      <p>Your one-stop shop for everything simple and stylish.</p>
+      <button onclick="showAlert()">Shop Now</button>
+    </section>
+
+    <section class="features">
+      <article>
+        <h3>Fast Shipping</h3>
+        <p>Get your orders delivered in 2-3 days.</p>
+      </article>
+      <article>
+        <h3>Best Prices</h3>
+        <p>Affordable products without compromising quality.</p>
+      </article>
+      <article>
+        <h3>Secure Checkout</h3>
+        <p>Your data and payments are safe with us.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SimpleShop. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
